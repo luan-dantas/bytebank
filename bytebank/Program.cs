@@ -11,7 +11,7 @@ ContaCorrente contaDoLuan = new ContaCorrente();
 contaDoLuan.titular = cliente;
 contaDoLuan.numero_agencia = 15;
 contaDoLuan.conta = "1010-X";
-contaDoLuan.saldo = 100;
+contaDoLuan.saldo (-10);
 Console.WriteLine("Saldo da conta do Luan =" + contaDoLuan.saldo);
 Console.WriteLine(contaDoLuan.titular.nome);
 
